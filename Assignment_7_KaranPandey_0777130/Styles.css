@@ -1,0 +1,31 @@
+<style>
+    /* Add your CSS rules here to style the form */
+    body {
+        background-color: #AABBCC; /* Set the background color for mobile devices */
+        font-size: 16px; /* Increase font size for labels on mobile */
+    }
+
+    @media (min-width: 601px) {
+        /* Add CSS rules for tablet/desktop layout */
+        body {
+            background-color: #DDDDDD; /* Set a different background color for tablet/desktop */
+        }
+    }
+
+    .swiper-container {
+        width: 100%;
+    }
+
+    .swiper-slide {
+        display: flex;
+        flex-direction: column;
+    }
+
+    label {
+        margin-bottom: 5px;
+    }
+
+    input, textarea {
+        width: 100%;
+    }
+</style>
